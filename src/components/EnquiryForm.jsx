@@ -82,7 +82,7 @@ export default function EnquiryForm() {
   };
 
   return (
-    <div style={formStyles.container}>
+    <div>
       <button
         style={formStyles.toggleButton}
         onClick={() => setIsMinimized(!isMinimized)}
